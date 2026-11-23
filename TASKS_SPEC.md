@@ -103,10 +103,10 @@ Status possíveis:
 
 | ID | Nome | Descrição | Dependências | Critérios de Conclusão | Status |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **TSK-801** | Testes Unitários do CartReducer | Escrever testes para adicionar, acumular, alterar quantidade, remover e limpar itens. | Checkpoint 4 | Todos os testes unitários passando com 100% de assertividade na lógica de negócio. | `Pendente` |
-| **TSK-802** | Testes do Serviço de CEP e Cálculos | Escrever testes para formatação de moeda, cálculo de subtotal/total e mock da API de CEP. | Checkpoint 5 | Testes de serviço e utilitários aprovados. | `Pendente` |
-| **TSK-803** | Testes de Componentes e Formulário | Testar componentes `QuantityInput`, `CoffeeCard` e validação do formulário de Checkout. | Checkpoint 5 | Validações de UI e erros de formulário verificados. | `Pendente` |
-| **TSK-804** | Verificação de Tipagem Estrita e Build | Executar verificação TypeScript (`tsc --noEmit`) e build de produção (`npm run build`). | TSK-801 a TSK-803 | Build e typecheck concluídos sem erros ou advertências. | `Pendente` |
+| **TSK-801** | Testes Unitários do CartReducer | Escrever testes para adicionar, acumular, alterar quantidade, remover e limpar itens. | Checkpoint 4 | Todos os testes unitários passando com 100% de assertividade na lógica de negócio. | `Concluído` |
+| **TSK-802** | Testes do Serviço de CEP e Cálculos | Escrever testes para formatação de moeda, cálculo de subtotal/total e mock da API de CEP. | Checkpoint 5 | Testes de serviço e utilitários aprovados. | `Concluído` |
+| **TSK-803** | Testes de Componentes e Formulário | Testar componentes `QuantityInput`, `CoffeeCard` e validação do formulário de Checkout. | Checkpoint 5 | Validações de UI e erros de formulário verificados. | `Concluído` |
+| **TSK-804** | Verificação de Tipagem Estrita e Build | Executar verificação TypeScript (`tsc --noEmit`) e build de produção (`npm run build`). | TSK-801 a TSK-803 | Build e typecheck concluídos sem erros ou advertências. | `Concluído` |
 
 ---
 
