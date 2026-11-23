@@ -114,6 +114,6 @@ Status possíveis:
 
 | ID | Nome | Descrição | Dependências | Critérios de Conclusão | Status |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **TSK-901** | Revisão Técnica e de Código | Limpeza de código morto, inspeção de imports, validação de imutabilidade e boas práticas. | Checkpoint 8 | Código limpo, sem `any`, sem TODOs e bem documentado. | `Pendente` |
-| **TSK-902** | Atualização Completa da Documentação e README | Finalizar README.md com instruções completas, badges, decisões de arquitetura e evidências. | TSK-901 | Todos os documentos SPEC e README atualizados e consistentes. | `Pendente` |
-| **TSK-903** | Checklist Final de Entrega Acadêmica | Validação cruzada de todos os critérios de aceite de RF-01 a RF-16 e RN-01 a RN-08. | TSK-902 | Todos os critérios atendidos com evidências técnicas verificadas. | `Pendente` |
+| **TSK-901** | Revisão Técnica e de Código | Limpeza de código morto, inspeção de imports, validação de imutabilidade e boas práticas. | Checkpoint 8 | Código limpo, sem `any`, sem TODOs e bem documentado. | `Concluído` |
+| **TSK-902** | Atualização Completa da Documentação e README | Finalizar README.md com instruções completas, badges, decisões de arquitetura e evidências. | TSK-901 | Todos os documentos SPEC e README atualizados e consistentes. | `Concluído` |
+| **TSK-903** | Checklist Final de Entrega Acadêmica | Validação cruzada de todos os critérios de aceite de RF-01 a RF-16 e RN-01 a RN-08. | TSK-902 | Todos os critérios atendidos com evidências técnicas verificadas. | `Concluído` |
