@@ -93,9 +93,9 @@ Status possíveis:
 
 | ID | Nome | Descrição | Dependências | Critérios de Conclusão | Status |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **TSK-701** | Responsividade Mobile e Tablet | Ajustar breakpoints, empilhamento de colunas no Checkout, grid da Home e menu no Header para telas pequenas. | Checkpoint 6 | Layout fluido e usável em 320px, 768px e 1200px+. | `Pendente` |
-| **TSK-702** | Validação de Acessibilidade (a11y) | Verificar contraste WCAG AA em Light e Dark Mode, foco visível, rótulos ARIA e navegação por teclado. | Checkpoint 6 | Interface navegável exclusivamente via teclado sem perda de contexto. | `Pendente` |
-| **TSK-703** | Microinterações e Estados de Feedback | Adicionar feedback visual (toasts ou alertas amigáveis) para itens adicionados, CEP carregando e remoção de produtos. | Checkpoint 6 | Interface responsiva e informativa com feedbacks claros. | `Pendente` |
+| **TSK-701** | Responsividade Mobile e Tablet | Ajustar breakpoints, empilhamento de colunas no Checkout, grid da Home e menu no Header para telas pequenas. | Checkpoint 6 | Layout fluido e usável em 320px, 768px e 1200px+. | `Concluído` |
+| **TSK-702** | Validação de Acessibilidade (a11y) | Verificar contraste WCAG AA em Light e Dark Mode, foco visível, rótulos ARIA e navegação por teclado. | Checkpoint 6 | Interface navegável exclusivamente via teclado sem perda de contexto. | `Concluído` |
+| **TSK-703** | Microinterações e Estados de Feedback | Adicionar feedback visual (toasts ou alertas amigáveis) para itens adicionados, CEP carregando e remoção de produtos. | Checkpoint 6 | Interface responsiva e informativa com feedbacks claros. | `Concluído` |
 
 ---
 
