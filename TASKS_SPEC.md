@@ -60,10 +60,10 @@ Status possíveis:
 
 | ID | Nome | Descrição | Dependências | Critérios de Conclusão | Status |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **TSK-401** | Implementação do CartReducer e Actions | Criar reducer puro com ações `ADD_ITEM`, `UPDATE_ITEM_QUANTITY`, `REMOVE_ITEM`, `CLEAR_CART` e `HYDRATE_CART`. | TSK-103 | Reducer imutável que acumula quantidades de produtos duplicados e nunca gera linhas repetidas. | `Pendente` |
-| **TSK-402** | Criação do CartContext e useCart Hook | Provedor de contexto global expondo itens, total de unidades, subtotal, taxa de entrega e métodos de despacho de ações. | TSK-401 | Estado compartilhado e consumível em qualquer componente da árvore. | `Pendente` |
-| **TSK-403** | Persistência com LocalStorage | Salvar estado do carrinho a cada modificação e carregar na inicialização. | TSK-402 | Carrinho preservado após refresh de página. | `Pendente` |
-| **TSK-404** | Integração do Badge do Header com o Total de Itens | Conectar o contador no Header à soma das quantidades de todas as unidades no carrinho. | TSK-402, TSK-204 | Badge exibe a soma total de itens com atualização instantânea. | `Pendente` |
+| **TSK-401** | Implementação do CartReducer e Actions | Criar reducer puro com ações `ADD_ITEM`, `UPDATE_ITEM_QUANTITY`, `REMOVE_ITEM`, `CLEAR_CART` e `HYDRATE_CART`. | TSK-103 | Reducer imutável que acumula quantidades de produtos duplicados e nunca gera linhas repetidas. | `Concluído` |
+| **TSK-402** | Criação do CartContext e useCart Hook | Provedor de contexto global expondo itens, total de unidades, subtotal, taxa de entrega e métodos de despacho de ações. | TSK-401 | Estado compartilhado e consumível em qualquer componente da árvore. | `Concluído` |
+| **TSK-403** | Persistência com LocalStorage | Salvar estado do carrinho a cada modificação e carregar na inicialização. | TSK-402 | Carrinho preservado após refresh de página. | `Concluído` |
+| **TSK-404** | Integração do Badge do Header com o Total de Itens | Conectar o contador no Header à soma das quantidades de todas as unidades no carrinho. | TSK-402, TSK-204 | Badge exibe a soma total de itens com atualização instantânea. | `Concluído` |
 
 ---
 
