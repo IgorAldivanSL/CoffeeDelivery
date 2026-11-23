@@ -1,0 +1,95 @@
+.headerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 0;
+  position: sticky;
+  top: 0;
+  background-color: var(--color-background);
+  z-index: 20;
+  transition: background-color var(--transition-normal);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  height: 2.5rem;
+  width: auto;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.locationBadge {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.5rem 0.75rem;
+  border-radius: 6px;
+  background-color: var(--color-purple-light);
+  color: var(--color-purple-dark);
+  font-size: 0.875rem;
+  font-weight: 500;
+  transition: all var(--transition-fast);
+}
+
+.themeButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  border-radius: 6px;
+  background-color: var(--color-base-button);
+  color: var(--color-base-text);
+  transition: all var(--transition-fast);
+}
+
+.themeButton:hover {
+  background-color: var(--color-base-hover);
+  color: var(--color-base-title);
+}
+
+.cartButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 0.5rem;
+  border-radius: 6px;
+  background-color: var(--color-yellow-light);
+  color: var(--color-yellow-dark);
+  transition: all var(--transition-fast);
+}
+
+.cartButton:hover {
+  filter: brightness(0.95);
+}
+
+.cartBadge {
+  position: absolute;
+  top: -0.5rem;
+  right: -0.5rem;
+  width: 1.25rem;
+  height: 1.25rem;
+  border-radius: 50%;
+  background-color: var(--color-yellow-dark);
+  color: var(--color-white);
+  font-size: 0.75rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 640px) {
+  .headerContainer {
+    padding: 1.25rem 0;
+  }
+
+  .locationBadge span {
+    display: none;
+  }
+}

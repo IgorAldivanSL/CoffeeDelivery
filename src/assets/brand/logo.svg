@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 50" fill="none">
+  <!-- Coffee Cup & Speed Accent Icon -->
+  <g id="logo-icon">
+    <!-- Steam / Delivery motion lines -->
+    <path d="M14 10C14 6 18 5 18 2" stroke="#DBAC2C" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M21 9C21 5 25 4 25 2" stroke="#C47F17" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M28 10C28 6 32 5 32 2" stroke="#DBAC2C" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- Coffee Cup Body -->
+    <path d="M8 14H34L31.5 35C31.2 37.8 28.8 40 26 40H16C13.2 40 10.8 37.8 10.5 35L8 14Z" fill="#8047F8"/>
+    <!-- Coffee Surface -->
+    <ellipse cx="21" cy="14" rx="13" ry="3" fill="#4B2995"/>
+    <ellipse cx="21" cy="14" rx="10" ry="2" fill="#DBAC2C"/>
+    <!-- Cup Handle -->
+    <path d="M33 18H38C40.2 18 42 19.8 42 22V24C42 26.2 40.2 28 38 28H32.2" stroke="#8047F8" stroke-width="3" stroke-linecap="round"/>
+    <!-- Speed Wing / Quick delivery ray -->
+    <path d="M3 24L8 16L6 26L11 25" stroke="#DBAC2C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <!-- Typography Wordmark -->
+  <g id="logo-text">
+    <text x="52" y="27" font-family="'Baloo 2', cursive, sans-serif" font-weight="800" font-size="22" fill="var(--color-base-title, #272221)">Coffee</text>
+    <text x="52" y="42" font-family="'Baloo 2', cursive, sans-serif" font-weight="700" font-size="14" letter-spacing="2.5" fill="#C47F17">DELIVERY</text>
+  </g>
+</svg>

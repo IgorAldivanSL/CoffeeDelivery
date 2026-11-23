@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <!-- Steam / Delivery motion lines -->
+  <path d="M16 9C16 5 20 4 20 2" stroke="#DBAC2C" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M24 8C24 4 28 3 28 2" stroke="#C47F17" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M32 9C32 5 36 4 36 2" stroke="#DBAC2C" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Cup Body -->
+  <path d="M10 14H38L35 38C34.6 41 32 43 29 43H19C16 43 13.4 41 13 38L10 14Z" fill="#8047F8"/>
+  <!-- Coffee Surface -->
+  <ellipse cx="24" cy="14" rx="14" ry="3.5" fill="#4B2995"/>
+  <ellipse cx="24" cy="14" rx="11" ry="2.5" fill="#DBAC2C"/>
+  <!-- Handle -->
+  <path d="M37 19H42C44.2 19 46 20.8 46 23V25C46 27.2 44.2 29 42 29H36" stroke="#8047F8" stroke-width="3" stroke-linecap="round"/>
+  <path d="M4 25L10 16L7 28L13 26" stroke="#DBAC2C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

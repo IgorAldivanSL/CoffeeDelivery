@@ -38,10 +38,10 @@ Status possíveis:
 
 | ID | Nome | Descrição | Dependências | Critérios de Conclusão | Status |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **TSK-201** | Geração e Aplicação de Logo Original e Favicon | Criar vetor SVG original para a marca Coffee Delivery com auxílio de IA e configurar favicon. | TSK-103 | Logo original integrada ao Header e favicon.svg aplicado ao index.html. | `Pendente` |
-| **TSK-202** | Configuração de Fontes e Design Tokens | Importar Google Fonts (Baloo 2 e Roboto) e definir variáveis CSS de cores, tipografia e espaçamentos. | TSK-103 | Tokens disponíveis globalmente e fontes aplicadas. | `Pendente` |
-| **TSK-203** | Implementação do ThemeContext (Light & Dark Mode) | Criar contexto de tema com persistência em localStorage e alternância no elemento raiz. | TSK-202 | Alternância suave de tema sem flash, persistida ao recarregar a página. | `Pendente` |
-| **TSK-204** | Componente Header com Badge do Carrinho e ThemeToggle | Criar Header responsivo contendo logo, seletor de localização fictícia, alternador de tema e botão do carrinho com contador. | TSK-201, TSK-203 | Header visualmente fiel ao Figma, acessível e responsivo. | `Pendente` |
+| **TSK-201** | Geração e Aplicação de Logo Original e Favicon | Criar vetor SVG original para a marca Coffee Delivery com auxílio de IA e configurar favicon. | TSK-103 | Logo original integrada ao Header e favicon.svg aplicado ao index.html. | `Concluído` |
+| **TSK-202** | Configuração de Fontes e Design Tokens | Importar Google Fonts (Baloo 2 e Roboto) e definir variáveis CSS de cores, tipografia e espaçamentos. | TSK-103 | Tokens disponíveis globalmente e fontes aplicadas. | `Concluído` |
+| **TSK-203** | Implementação do ThemeContext (Light & Dark Mode) | Criar contexto de tema com persistência em localStorage e alternância no elemento raiz. | TSK-202 | Alternância suave de tema sem flash, persistida ao recarregar a página. | `Concluído` |
+| **TSK-204** | Componente Header com Badge do Carrinho e ThemeToggle | Criar Header responsivo contendo logo, seletor de localização fictícia, alternador de tema e botão do carrinho com contador. | TSK-201, TSK-203 | Header visualmente fiel ao Figma, acessível e responsivo. | `Concluído` |
 
 ---
 

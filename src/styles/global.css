@@ -1,0 +1,112 @@
+:root {
+  /* Brand Yellow */
+  --color-yellow-dark: #C47F17;
+  --color-yellow: #DBAC2C;
+  --color-yellow-light: #F1E9C9;
+
+  /* Brand Purple */
+  --color-purple-dark: #4B2995;
+  --color-purple: #8047F8;
+  --color-purple-light: #EBE5F9;
+
+  /* Base Light */
+  --color-base-title: #272221;
+  --color-base-subtitle: #403937;
+  --color-base-text: #574F4D;
+  --color-base-label: #8D8686;
+  --color-base-hover: #D7D5D5;
+  --color-base-button: #E6E5E5;
+  --color-base-input: #EDEDED;
+  --color-base-card: #F3F2F2;
+  --color-background: #FAFAFA;
+  --color-white: #FFFFFF;
+
+  /* State colors */
+  --color-error: #E25858;
+  --color-success: #38A169;
+
+  /* Fonts */
+  --font-title: 'Baloo 2', cursive, sans-serif;
+  --font-text: 'Roboto', sans-serif;
+
+  /* Transitions */
+  --transition-fast: 0.15s ease;
+  --transition-normal: 0.25s ease;
+}
+
+[data-theme='dark'] {
+  /* Brand Yellow Dark Theme */
+  --color-yellow-dark: #EBC136;
+  --color-yellow: #DBAC2C;
+  --color-yellow-light: #2D2619;
+
+  /* Brand Purple Dark Theme */
+  --color-purple-dark: #A78BFA;
+  --color-purple: #8047F8;
+  --color-purple-light: #252033;
+
+  /* Base Dark */
+  --color-base-title: #F3F4F6;
+  --color-base-subtitle: #E5E7EB;
+  --color-base-text: #9CA3AF;
+  --color-base-label: #6B7280;
+  --color-base-hover: #374151;
+  --color-base-button: #1F2937;
+  --color-base-input: #111827;
+  --color-base-card: #1F2937;
+  --color-background: #111827;
+  --color-white: #FFFFFF;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-yellow-dark);
+  outline-offset: 2px;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-base-text);
+  font-family: var(--font-text);
+  font-size: 1rem;
+  line-height: 1.3;
+  -webkit-font-smoothing: antialiased;
+  transition: background-color var(--transition-normal), color var(--transition-normal);
+  min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-title);
+  color: var(--color-base-title);
+  line-height: 1.3;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  font-family: var(--font-text);
+  background: transparent;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+.layout-container {
+  max-width: 74rem;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
