@@ -71,11 +71,11 @@ Status possíveis:
 
 | ID | Nome | Descrição | Dependências | Critérios de Conclusão | Status |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **TSK-501** | Serviço de Consulta ViaCEP | Criar cliente HTTP para a API pública ViaCEP com validação de formato e tratamento de erros. | TSK-103 | Consulta automática ao digitar 8 dígitos e tratamento de erros sem travar a UI. | `Pendente` |
-| **TSK-502** | Formulário de Endereço com React Hook Form e Zod | Implementar formulário de endereço com autopreenchimento a partir do CEP e validação de campos obrigatórios. | TSK-102, TSK-501 | Campos validados com mensagens de erro claras e acessíveis. | `Pendente` |
-| **TSK-503** | Seleção de Método de Pagamento | Componentes de rádio estilizados para Crédito, Débito e Dinheiro com validação de seleção obrigatória. | TSK-502 | Apenas um método selecionável por vez; validação bloqueia submissão sem seleção. | `Pendente` |
-| **TSK-504** | Painel de Resumo do Carrinho no Checkout | Exibir itens selecionados com ajuste de quantidade e remoção, além dos valores de Subtotal, Taxa de Entrega e Total Geral. | TSK-402, TSK-303 | Cálculos monetários precisos e atualização em tempo real. | `Pendente` |
-| **TSK-505** | Bloqueio de Envio com Carrinho Vazio | Desabilitar ou impedir envio caso o carrinho esteja vazio, exibindo feedback claro. | TSK-504 | Usuário impedido de submeter pedido vazio. | `Pendente` |
+| **TSK-501** | Serviço de Consulta ViaCEP | Criar cliente HTTP para a API pública ViaCEP com validação de formato e tratamento de erros. | TSK-103 | Consulta automática ao digitar 8 dígitos e tratamento de erros sem travar a UI. | `Concluído` |
+| **TSK-502** | Formulário de Endereço com React Hook Form e Zod | Implementar formulário de endereço com autopreenchimento a partir do CEP e validação de campos obrigatórios. | TSK-102, TSK-501 | Campos validados com mensagens de erro claras e acessíveis. | `Concluído` |
+| **TSK-503** | Seleção de Método de Pagamento | Componentes de rádio estilizados para Crédito, Débito e Dinheiro com validação de seleção obrigatória. | TSK-502 | Apenas um método selecionável por vez; validação bloqueia submissão sem seleção. | `Concluído` |
+| **TSK-504** | Painel de Resumo do Carrinho no Checkout | Exibir itens selecionados com ajuste de quantidade e remoção, além dos valores de Subtotal, Taxa de Entrega e Total Geral. | TSK-402, TSK-303 | Cálculos monetários precisos e atualização em tempo real. | `Concluído` |
+| **TSK-505** | Bloqueio de Envio com Carrinho Vazio | Desabilitar ou impedir envio caso o carrinho esteja vazio, exibindo feedback claro. | TSK-504 | Usuário impedido de submeter pedido vazio. | `Concluído` |
 
 ---
 

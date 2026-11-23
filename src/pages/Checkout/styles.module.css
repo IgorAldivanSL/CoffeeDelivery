@@ -1,0 +1,250 @@
+.checkoutContainer {
+  display: grid;
+  grid-template-columns: 40rem 1fr;
+  gap: 2rem;
+  padding: 2.5rem 0 5rem 0;
+  align-items: start;
+}
+
+.sectionTitle {
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: var(--color-base-subtitle);
+  margin-bottom: 1rem;
+}
+
+.formColumns {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.cardBox {
+  background-color: var(--color-base-card);
+  border-radius: 6px;
+  padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  transition: background-color var(--transition-normal);
+}
+
+.boxHeader {
+  display: flex;
+  gap: 0.5rem;
+  align-items: flex-start;
+}
+
+.boxHeaderText {
+  display: flex;
+  flex-direction: column;
+  gap: 0.125rem;
+}
+
+.boxTitle {
+  font-family: var(--font-text);
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--color-base-subtitle);
+}
+
+.boxSubtitle {
+  font-size: 0.875rem;
+  color: var(--color-base-text);
+}
+
+.inputsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.inputGroup {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.inputWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  position: relative;
+}
+
+.inputWrapper.flex1 {
+  flex: 1;
+}
+
+.inputField {
+  background-color: var(--color-base-input);
+  border: 1px solid var(--color-base-button);
+  border-radius: 4px;
+  padding: 0.75rem;
+  font-size: 0.875rem;
+  color: var(--color-base-text);
+  transition: border-color var(--transition-fast);
+  width: 100%;
+}
+
+.inputField:focus {
+  border-color: var(--color-yellow-dark);
+  outline: none;
+}
+
+.inputField::placeholder {
+  color: var(--color-base-label);
+}
+
+.inputOptionalLabel {
+  position: absolute;
+  right: 0.75rem;
+  top: 0.85rem;
+  font-size: 0.75rem;
+  font-style: italic;
+  color: var(--color-base-label);
+  pointer-events: none;
+}
+
+.errorMessage {
+  font-size: 0.75rem;
+  color: var(--color-error);
+}
+
+.cepFeedback {
+  font-size: 0.75rem;
+  color: var(--color-yellow-dark);
+}
+
+.paymentOptions {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.75rem;
+}
+
+.paymentButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  padding: 1rem;
+  background-color: var(--color-base-button);
+  color: var(--color-base-text);
+  border: 1px solid transparent;
+  border-radius: 6px;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  transition: all var(--transition-fast);
+}
+
+.paymentButton:hover {
+  background-color: var(--color-base-hover);
+  color: var(--color-base-title);
+}
+
+.paymentButton.selected {
+  background-color: var(--color-purple-light);
+  border-color: var(--color-purple);
+  color: var(--color-base-title);
+}
+
+/* Resumo do Pedido */
+.selectedCoffeesCard {
+  background-color: var(--color-base-card);
+  border-radius: 6px 44px 6px 44px;
+  padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  transition: background-color var(--transition-normal);
+}
+
+.emptyCart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem 0;
+  text-align: center;
+  color: var(--color-base-label);
+}
+
+.backHomeLink {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: var(--color-yellow);
+  color: var(--color-white);
+  border-radius: 6px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  transition: background-color var(--transition-fast);
+}
+
+.backHomeLink:hover {
+  background-color: var(--color-yellow-dark);
+}
+
+.totalsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.totalRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.875rem;
+  color: var(--color-base-text);
+}
+
+.totalRow.totalFinal {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--color-base-subtitle);
+}
+
+.confirmButton {
+  width: 100%;
+  padding: 0.75rem 0;
+  background-color: var(--color-yellow);
+  color: var(--color-white);
+  border-radius: 6px;
+  font-size: 0.875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  transition: background-color var(--transition-fast);
+  margin-top: 0.5rem;
+}
+
+.confirmButton:hover:not(:disabled) {
+  background-color: var(--color-yellow-dark);
+}
+
+.confirmButton:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+@media (max-width: 1024px) {
+  .checkoutContainer {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .cardBox,
+  .selectedCoffeesCard {
+    padding: 1.5rem;
+  }
+
+  .inputGroup {
+    flex-direction: column;
+  }
+
+  .paymentOptions {
+    grid-template-columns: 1fr;
+  }
+}
