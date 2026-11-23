@@ -83,9 +83,9 @@ Status possíveis:
 
 | ID | Nome | Descrição | Dependências | Critérios de Conclusão | Status |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **TSK-601** | Criação do Snapshot do Pedido e Limpeza do Carrinho | Ao validar e submeter o checkout, gerar snapshot desacoplado do pedido, gravá-lo no storage e limpar o carrinho. | TSK-502 a TSK-505 | Carrinho limpo e snapshot completo preservado com endereço, itens, valores e pagamento. | `Pendente` |
-| **TSK-602** | Página de Confirmação (Success) | Renderizar tela de sucesso com ilustração, dados do endereço de entrega, previsão e forma de pagamento a partir do snapshot. | TSK-601 | Página `/success` exibe os dados confirmados mesmo com o carrinho vazio. | `Pendente` |
-| **TSK-603** | Proteção da Rota de Confirmação | Impedir acesso direto à rota `/success` sem a existência de um pedido recém-concluído. | TSK-602 | Redirecionamento amigável para a Home caso não haja pedido no snapshot. | `Pendente` |
+| **TSK-601** | Criação do Snapshot do Pedido e Limpeza do Carrinho | Ao validar e submeter o checkout, gerar snapshot desacoplado do pedido, gravá-lo no storage e limpar o carrinho. | TSK-502 a TSK-505 | Carrinho limpo e snapshot completo preservado com endereço, itens, valores e pagamento. | `Concluído` |
+| **TSK-602** | Página de Confirmação (Success) | Renderizar tela de sucesso com ilustração, dados do endereço de entrega, previsão e forma de pagamento a partir do snapshot. | TSK-601 | Página `/success` exibe os dados confirmados mesmo com o carrinho vazio. | `Concluído` |
+| **TSK-603** | Proteção da Rota de Confirmação | Impedir acesso direto à rota `/success` sem a existência de um pedido recém-concluído. | TSK-602 | Redirecionamento amigável para a Home caso não haja pedido no snapshot. | `Concluído` |
 
 ---
 

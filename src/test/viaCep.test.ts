@@ -16,10 +16,13 @@ describe('ViaCEP Service (RF-08, RN-07)', () => {
       uf: 'RS',
     };
 
-    global.fetch = vi.fn().mockResolvedValue({
-      ok: true,
-      json: async () => mockResponse,
-    } as Response);
+    vi.stubGlobal(
+      'fetch',
+      vi.fn().mockResolvedValue({
+        ok: true,
+        json: async () => mockResponse,
+      })
+    );
 
     const address = await fetchAddressByCep('90010000');
 
@@ -38,10 +41,13 @@ describe('ViaCEP Service (RF-08, RN-07)', () => {
   });
 
   it('should throw friendly error when CEP is not found by ViaCEP', async () => {
-    global.fetch = vi.fn().mockResolvedValue({
-      ok: true,
-      json: async () => ({ erro: true }),
-    } as Response);
+    vi.stubGlobal(
+      'fetch',
+      vi.fn().mockResolvedValue({
+        ok: true,
+        json: async () => ({ erro: true }),
+      })
+    );
 
     await expect(fetchAddressByCep('99999999')).rejects.toThrow(
       'CEP não encontrado. Por favor, preencha o endereço manualmente.'
@@ -49,7 +55,7 @@ describe('ViaCEP Service (RF-08, RN-07)', () => {
   });
 
   it('should throw friendly fallback error when network request fails', async () => {
-    global.fetch = vi.fn().mockRejectedValue(new Error('Network error'));
+    vi.stubGlobal('fetch', vi.fn().mockRejectedValue(new Error('Network error')));
 
     await expect(fetchAddressByCep('90010000')).rejects.toThrow(
       'Não foi possível consultar o CEP automaticamente. Você pode preencher o endereço manualmente.'
