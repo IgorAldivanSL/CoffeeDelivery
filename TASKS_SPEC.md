@@ -49,10 +49,10 @@ Status possíveis:
 
 | ID | Nome | Descrição | Dependências | Critérios de Conclusão | Status |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **TSK-301** | Importação de Assets de Cafés e Dados Tipados | Mapear os 14 cafés da referência no arquivo estático `src/data/coffees.ts` com imagens SVG. | TSK-103 | Todos os 14 cafés disponíveis com dados tipados e imagens atribuídas. | `Pendente` |
-| **TSK-302** | Seção Hero da Home | Implementar seção de apresentação da cafeteria com títulos em Baloo 2, lista de benefícios com ícones e ilustração. | TSK-202 | Seção Hero com tipografia, espaçamentos e responsividade conformes ao Figma. | `Pendente` |
-| **TSK-303** | Componente QuantityInput | Criar componente de controle de quantidade com botões de incremento/decremento e restrição de valor mínimo 1. | TSK-202 | Componente com acessibilidade por teclado, sem permitir valores zero ou negativos. | `Pendente` |
-| **TSK-304** | Componente CoffeeCard e Listagem de Produtos | Renderizar lista de cafés com tags, imagem, título, descrição, preço em BRL, QuantityInput e botão de adicionar ao carrinho. | TSK-301, TSK-303 | Cards alinhados em grid responsivo na Home. | `Pendente` |
+| **TSK-301** | Importação de Assets de Cafés e Dados Tipados | Mapear os 14 cafés da referência no arquivo estático `src/data/coffees.ts` com imagens SVG. | TSK-103 | Todos os 14 cafés disponíveis com dados tipados e imagens atribuídas. | `Concluído` |
+| **TSK-302** | Seção Hero da Home | Implementar seção de apresentação da cafeteria com títulos em Baloo 2, lista de benefícios com ícones e ilustração. | TSK-202 | Seção Hero com tipografia, espaçamentos e responsividade conformes ao Figma. | `Concluído` |
+| **TSK-303** | Componente QuantityInput | Criar componente de controle de quantidade com botões de incremento/decremento e restrição de valor mínimo 1. | TSK-202 | Componente com acessibilidade por teclado, sem permitir valores zero ou negativos. | `Concluído` |
+| **TSK-304** | Componente CoffeeCard e Listagem de Produtos | Renderizar lista de cafés com tags, imagem, título, descrição, preço em BRL, QuantityInput e botão de adicionar ao carrinho. | TSK-301, TSK-303 | Cards alinhados em grid responsivo na Home. | `Concluído` |
 
 ---
 
