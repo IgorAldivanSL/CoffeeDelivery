@@ -26,11 +26,11 @@ Status possíveis:
 
 | ID | Nome | Descrição | Dependências | Critérios de Conclusão | Status |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **TSK-101** | Inicialização do Projeto com Vite + React + TypeScript | Configurar projeto Vite com template React-TS no workspace. | Checkpoint 0 | Projeto inicializado com scripts `dev`, `build` e `preview` funcionais. | `Pendente` |
-| **TSK-102** | Instalação e Configuração de Dependências | Instalar React Router DOM, React Hook Form, Zod, @hookform/resolvers, ícones e ferramentas de teste (Vitest, RTL). | TSK-101 | Dependências instaladas sem conflitos no package.json. | `Pendente` |
-| **TSK-103** | Estruturação de Pastas e Tipagens Base | Criar diretórios modulares (`components`, `pages`, `contexts`, `reducers`, `services`, `data`, `types`, `styles`, `utils`). | TSK-101 | Estrutura modular organizada com tipagens base criadas. | `Pendente` |
-| **TSK-104** | Configuração do Ambiente de Testes (Vitest) | Configurar vitest.config.ts, setupTests.ts e scripts de teste no package.json. | TSK-102 | Comando `npm run test` ou `npx vitest run` executa com sucesso. | `Pendente` |
-| **TSK-105** | Configuração do React Router | Configurar rotas base `/`, `/checkout` e `/success` com DefaultLayout. | TSK-103 | Navegação client-side funcional entre rotas. | `Pendente` |
+| **TSK-101** | Inicialização do Projeto com Vite + React + TypeScript | Configurar projeto Vite com template React-TS no workspace. | Checkpoint 0 | Projeto inicializado com scripts `dev`, `build` e `preview` funcionais. | `Concluído` |
+| **TSK-102** | Instalação e Configuração de Dependências | Instalar React Router DOM, React Hook Form, Zod, @hookform/resolvers, ícones e ferramentas de teste (Vitest, RTL). | TSK-101 | Dependências instaladas sem conflitos no package.json. | `Concluído` |
+| **TSK-103** | Estruturação de Pastas e Tipagens Base | Criar diretórios modulares (`components`, `pages`, `contexts`, `reducers`, `services`, `data`, `types`, `styles`, `utils`). | TSK-101 | Estrutura modular organizada com tipagens base criadas. | `Concluído` |
+| **TSK-104** | Configuração do Ambiente de Testes (Vitest) | Configurar vitest.config.ts, setupTests.ts e scripts de teste no package.json. | TSK-102 | Comando `npm run test` ou `npx vitest run` executa com sucesso. | `Concluído` |
+| **TSK-105** | Configuração do React Router | Configurar rotas base `/`, `/checkout` e `/success` com DefaultLayout. | TSK-103 | Navegação client-side funcional entre rotas. | `Concluído` |
 
 ---
 

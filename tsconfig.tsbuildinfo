@@ -1,0 +1,1 @@
+{"root":["./src/App.tsx","./src/main.tsx","./src/layouts/DefaultLayout/index.tsx","./src/pages/Checkout/index.tsx","./src/pages/Home/index.tsx","./src/pages/Success/index.tsx","./src/routes/Router.tsx","./src/test/sanity.test.ts","./src/test/setup.ts","./src/types/cart.ts","./src/types/coffee.ts","./src/utils/currency.ts"],"version":"5.9.3"}
